@@ -324,6 +324,38 @@ img {
   color: var(--text-color);
 }
 
+.login__singup,
+.login__forgot{
+  display: block;
+  font-size: var(--small-font-size);
+}
+
+.login__singup{
+  margin-bottom: .5rem;
+}
+
+.login__singup a{
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+}
+
+.login__forgot{
+  color: var(--first-color);
+  margin-bottom: 1.25rem;
+}
+
+.login__close{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: var(--title-color);
+  cursor: pointer;
+}
+
+
+
+
 
 /* Show login */
 
