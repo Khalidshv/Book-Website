@@ -367,8 +367,18 @@ img {
 
 
 /*=============== BUTTON ===============*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+  padding: 1rem 1.5rem;
+  transition: box-shadow .4s;
+}
 
-
+.button:hover{
+  box-shadow: 0 4px 16px hsla(230, 72%, 32%, .4);
+}
 /*=============== SERVICES ===============*/
 
 
