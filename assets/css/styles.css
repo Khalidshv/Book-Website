@@ -280,7 +280,7 @@ img {
 /*=============== LOGIN ===============*/
 .login{
   position: absolute;
-  top: 0;
+  top: -100%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -358,12 +358,10 @@ img {
   cursor: pointer;
 }
 
-
-
-
-
 /* Show login */
-
+.show-login{
+  top: 0;
+}
 
 /*=============== HOME ===============*/
 
