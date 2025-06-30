@@ -344,6 +344,11 @@ img {
   margin-bottom: 1.25rem;
 }
 
+.login__button{
+  width: 100%;
+  cursor: pointer;
+}
+
 .login__close{
   position: absolute;
   top: 2rem;
