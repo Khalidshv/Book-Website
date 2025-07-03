@@ -382,7 +382,23 @@ img {
   margin-bottom: 1rem;
 }
 
+.home__description{
+  margin-bottom: 2rem;
+}
 
+.home__images{
+  display: grid;
+}
+
+.home__article,
+.home__img{
+  width: 220px;
+  transition: scale .4s;
+}
+
+.home__article{
+  scale: .8;
+}
 /* Swiper class */
 
 
