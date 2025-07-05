@@ -45,8 +45,24 @@ if(loginClose){
 
 
 /*=============== HOME SWIPER ===============*/
+let swiperHome = new Swiper('.home__swiper', {
+    loop: true,
+    spacebetween: 30,
+    grabcursor: true,
+    sliderPerView: 'auto',
+    centeredSlides: 'auto',
 
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
 
+    breakpoints: {
+        1220: {
+            spacebetween: -32,
+        },
+    },
+});
 /*=============== FEATURED SWIPER ===============*/
 
 
