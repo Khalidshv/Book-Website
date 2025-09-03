@@ -463,13 +463,13 @@ text-align:center
 
 .featured__prices{
   display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center; 
   column-gap: .75rem;
   margin-bottom: 1.25rem;
 }
 
-.featured__discoun{
+.featured__discount{
   color: var(--title-color)
 }
 
@@ -488,8 +488,20 @@ text-align:center
   row-gap: .75rem;
   position: absolute;
   top: 2rem;  
+  right: -1.5rem;
+  transition: right .4s;
 } 
 
+.featured__actions button{
+  background: none; 
+  font-size: 1.25rem;
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.featured__card:hover .featured__actions{
+  right: 1.5rem
+}
 /*=============== DISCOUNT ===============*/
 
 
