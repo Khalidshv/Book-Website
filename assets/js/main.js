@@ -70,7 +70,25 @@ let swiperHome = new Swiper('.home__swiper', {
     },
 });
 /*=============== FEATURED SWIPER ===============*/
+let swiperFeatured = new Swiper('.featured__swiper', {
+    loop: true,
+    spacebetween: 16,
+    grabcursor: true,
+    sliderPerView: 'auto',
+    centeredSlides: 'auto',
 
+navigation: {
+nextEl: '.swiper-button-naxt',
+prevEl: '.swiper-button-prev',
+},
+
+    breakpoints: {
+        1150: {
+            slidesPerView: 4,
+            centeredSlides: false,
+        },
+    },
+});
 
 /*=============== NEW SWIPER ===============*/
 
