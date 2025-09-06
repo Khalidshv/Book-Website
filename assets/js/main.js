@@ -78,8 +78,8 @@ let swiperFeatured = new Swiper('.featured__swiper', {
     centeredSlides: 'auto',
 
 navigation: {
-nextEl: '.swiper-button-next',
-prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
 },
 
     breakpoints: {
@@ -91,6 +91,19 @@ prevEl: '.swiper-button-prev',
 });
 
 /*=============== NEW SWIPER ===============*/
+let swiperNew = new Swiper('.new__swiper', {
+    loop: true,
+    spacebetween: 16,
+    sliderPerView: 'auto',
+
+
+
+    breakpoints: {
+        1150: {
+            slidesPerView: 3,
+        },
+    },
+});
 
 
 /*=============== TESTIMONIAL SWIPER ===============*/
