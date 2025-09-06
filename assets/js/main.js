@@ -78,7 +78,7 @@ let swiperFeatured = new Swiper('.featured__swiper', {
     centeredSlides: 'auto',
 
 navigation: {
-nextEl: '.swiper-button-naxt',
+nextEl: '.swiper-button-next',
 prevEl: '.swiper-button-prev',
 },
 
