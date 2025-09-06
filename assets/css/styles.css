@@ -548,6 +548,14 @@ text-align:center
   width: 170px;
 }
 
+
+.discount__img-1{
+  transform: translateX(1rem) rotate(-10deg);
+}
+
+.discount__img-2{
+  transform: translateX(1rem) rotate(10deg);
+}
 /*=============== NEW ===============*/
 
 
