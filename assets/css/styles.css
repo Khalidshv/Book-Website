@@ -601,6 +601,10 @@ text-align:center
   color: var(--first-color);
 }
 
+.new__swiper:nth-child(1){
+  margin-bottom: 2rem;
+}
+
 /*=============== JOIN ===============*/
 
 
